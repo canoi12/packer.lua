@@ -2,6 +2,8 @@
 
 packer is a LÖVE lib that implements a bin packer algorithm to pack your textures in a texture atlas
 
+![packer_scr](https://user-images.githubusercontent.com/15099243/82699025-45244180-9c42-11ea-898b-0400240c718f.png)
+
 ## usage
 
 ```lua
