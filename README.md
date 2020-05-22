@@ -45,6 +45,12 @@ packs a new image from a previous loaded love2d image
 
 ### packer:draw(packer_img, [quad], x, y, angle, sx, sy, ox, oy, kx, ky)
 
+see [love.graphics.draw](https://love2d.org/wiki/love.graphics.draw)
+
+### packer:atlas()
+
+draws the current state of the texture atlas
+
 ### image:newQuad(x, y, width, height)
 
 creates a new quad from the images coordinates in the texture atlas
