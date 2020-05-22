@@ -12,5 +12,5 @@ end
 function love.draw()
   packer:atlas()
 
-  packer:draw(knight, quad, 128, 128)
+  packer:draw(knight, quad, 128, 256)
 end

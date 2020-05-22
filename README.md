@@ -1,4 +1,4 @@
-# packer
+# packer.lua
 
 packer is a LÖVE lib that implements a bin packer algorithm to pack your textures in a texture atlas
 
@@ -40,6 +40,8 @@ packs a new image from the file
 ### packer:add(love_image)
 
 packs a new image from a previous loaded love2d image
+
+### packer:draw(packer_img, [quad], x, y, angle, sx, sy, ox, oy, kx, ky)
 
 ### image:newQuad(x, y, width, height)
 
